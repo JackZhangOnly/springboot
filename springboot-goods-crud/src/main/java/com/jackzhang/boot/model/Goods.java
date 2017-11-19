@@ -98,4 +98,14 @@ public class Goods {
     public void setCreatetime(String createtime) {
         this.createtime = createtime == null ? null : createtime.trim();
     }
+
+    @Override
+    public String toString() {
+        return "good" +"\n"+
+                "{ " +"\n"+
+                "name："+name+"\n"+
+                "goodsId："+goodsId+"\n"+
+                "description："+description+"\n"+
+                " }";
+    }
 }
