@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by Jack on 2017/10/22.
+ * Created by Jack
  */
 @RestController
 public class HelloController {
